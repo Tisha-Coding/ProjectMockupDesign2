@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Rose:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: #f9f5ed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+li
+{
+    list-style : none;
+    cursor: pointer;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+header
+{
+    padding: 15px 0;
+}
+
+nav
+{
+    display: flex;
+     width: 100%; 
+    align-items: center; 
+}
+
+
+nav ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+}
+
+nav ul li a
+{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+nav ul li:hover
+{
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.learn-more-btn
+{ 
+    background-color: green;
+    padding: 8px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+.learn-more-btn:hover
+{
+    background-color: white;
+    color: green;
+    border: 1px solid black;
+}
+
+
+.logo
+{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.hero-section
+{
+    display: flex;
+    align-items: center;
+}
+
+.hero-left-section
+{
+    margin-left: 200px;
+}
+
+.hero-left-section h1
+{
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+}
+
+.hero-left-section p
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin-left: 2px;
+    margin-bottom: 20px;
+}
+
+.right-hero-section
+{
+    margin-left: 200px;
+}
+
+#img1
+{
+     width: 200px;
+     padding: 10px;
+}
+
+#img2
+{
+    width: 200px;
+    padding: 10px;
+}
+
+#img3
+{
+    width: 410px;
+}
+
